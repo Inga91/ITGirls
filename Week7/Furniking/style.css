@@ -1,0 +1,279 @@
+.container {
+    width: 100%;
+
+}
+
+.top-color {
+    background-color: #7AC751;
+    width: 100%;
+}
+
+.top,
+.header,
+.dop-info,
+.row-menu,
+.row-info {
+    margin: 0 auto;
+    padding: 0 1%;
+}
+
+.top {
+    display: flex;
+    height: 10vh;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.top-left,
+.top-right {
+    width: 40vw;
+}
+
+.top-right {
+    text-align: right;
+}
+
+.arrow {
+    display: inline-block;
+    width: 12px;
+    height: 8px;
+    background-image: url(assets/arrow.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.eng,
+.login {
+    display: inline-block;
+    margin: 0;
+}
+
+.login>a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo-pic {
+    display: inline-block;
+    width: 32px;
+    height: 39px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(assets/Group.svg);
+    vertical-align: middle;
+}
+
+.header__logo-name {
+    display: inline-block;
+    margin: 0 0 0 5px;
+    font-size: 4vh;
+    font-family: 'Rubik', sans-serif;
+    color: #555555;
+    vertical-align: middle;
+
+}
+
+.search-input {
+    width: 40%;
+    height: 10vh;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    color: #B0B0B0;
+    border: 2px solid #7AC751;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bell,
+.cart,
+.avatar {
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 7px;
+
+}
+
+.cart {
+    width: 31px;
+    height: 24px;
+    background-image: url(assets/card.svg);
+}
+
+.bell {
+    width: 26px;
+    height: 26px;
+    background-image: url(assets/bell.svg);
+}
+
+.avatar {
+    width: 24px;
+    height: 24px;
+    background-image: url(assets/avatar.svg);
+}
+
+.row-menu__color {
+    background-color: #F7F8FA;
+}
+
+.row-menu {
+    display: flex;
+}
+
+.row-menu nav {
+    width: auto;
+}
+
+.collections {
+    width: 25vw;
+    background-color: #7AC751;
+    color: #fff;
+    display: flex;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    align-items: center;
+}
+
+.sort {
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 7px;
+    width: 24px;
+    height: 24px;
+    background-image: url(assets/sort.svg);
+    display: inline-block;
+}
+
+.menu {
+    margin: 2vh 0 2vh 0;
+    padding-left: 2vh;
+}
+
+.menu-item {
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.menu-item>a,
+.aside-item>a {
+    text-decoration: none;
+    color: #555555;
+
+}
+
+.menu-item>a {
+    text-decoration: none;
+    color: #555555;
+}
+
+.row-info {
+    display: grid;
+    grid-template-columns: 208px 1fr;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+img {
+    margin-top: 20px;
+    width: 780px;
+}
+
+.aside-item {
+    list-style-type: none;
+    padding: 10px 0px 10px 12px;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    background-color: #F7F8FA;
+    border-bottom: 0.8px solid #E3E3E3;
+}
+
+.aside-item:last-child {
+    border-bottom: none;
+}
+
+.aside>ul {
+    padding: 0;
+    margin: 0;
+    width: 25vw;
+}
+
+.dop-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    margin: 40px auto;
+}
+
+.dop-info__info {
+    display: flex;
+
+}
+
+.dop-info__shipping,
+.dop-info__gift,
+.dop-info__payment,
+.dop-info__support {
+    width: 58px;
+    height: 58px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.dop-info__shipping {
+    background-image: url(assets/delivery.svg);
+}
+
+.dop-info__gift {
+    background-image: url(assets/present.svg);
+}
+
+.dop-info__payment {
+    background-image: url(assets/wallet.svg);
+}
+
+.dop-info__support {
+    background-image: url(assets/support.svg);
+}
+
+.dop-info__text p:first-child {
+    margin: 10px 0 2px 5px;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    color: #555555;
+}
+
+.dop-info__text p:last-child {
+    margin: 2px 0 10px 5px;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    color: rgba(51, 51, 51, 0.75);
+}
+
+.section-offer {
+    margin: 40px auto;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-between;
+}
