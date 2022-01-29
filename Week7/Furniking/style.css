@@ -19,7 +19,7 @@
 
 .top {
     display: flex;
-    height: 10vh;
+    height: 60px;
     font-size: 16px;
     font-family: 'Rubik', sans-serif;
     color: #fff;
@@ -79,7 +79,7 @@
 .header__logo-name {
     display: inline-block;
     margin: 0 0 0 5px;
-    font-size: 4vh;
+    font-size: calc(16px + 20px * (100 / 1280));
     font-family: 'Rubik', sans-serif;
     color: #555555;
     vertical-align: middle;
@@ -88,7 +88,7 @@
 
 .search-input {
     width: 40%;
-    height: 10vh;
+    height: 30px;
     font-size: 14px;
     font-family: 'Rubik', sans-serif;
     color: #B0B0B0;
@@ -144,10 +144,11 @@
 
 .collections {
     width: 25vw;
+    min-width: 25vw;
     background-color: #7AC751;
     color: #fff;
     display: flex;
-    font-size: 16px;
+    font-size: calc(14px + 16px * (100 / 1000));
     font-family: 'Rubik', sans-serif;
     align-items: center;
 }
