@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VR</title>
+    <link rel="stylesheet" href="normalize.css" type="text/css">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@500&family=Roboto+Slab:wght@300&display=swap"
+        rel="stylesheet">
+
+    <style>
+        .container {
+            background-color: #FFF;
+            font-family: 'Roboto Slab', sans-serif;
+            max-width: 1440px;
+            margin: 0 auto;
+        }
+
+        @import url('https://rsms.me/inter/inter.css');
+
+        .header {
+            padding: 50px 70px 0px 75px;
+        }
+
+        .header__logo {
+            float: left;
+            height: 40px;
+            width: 201px;
+            background-image: url(Images/logo.svg);
+        }
+
+        .btn {
+            background-color: #5222D0;
+            color: #FFF;
+            border-radius: 100px;
+            font-family: 'Inter', sans-serif;
+            border: none;
+            background-color: #5222D0;
+            color: #FFF;
+        }
+
+        .header__cart {
+            float: right;
+            width: 115px;
+            height: 38px;
+            font-size: 13px;
+        }
+
+        .header::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        .main {
+            position: relative;
+            margin-left: 126px;
+            padding: 70px 0 0 0;
+
+        }
+
+        .main__title {
+            font-family: 'inter', serif;
+            font-size: 60px;
+            text-transform: uppercase;
+
+        }
+
+        .main__text-container {
+            width: 487px;
+            height: 96px;
+        }
+
+        .main__text {
+            font-size: 20px;
+        }
+
+        .main__btn-primary {
+            width: 270px;
+            height: 84px;
+            margin-top: 20px;
+            margin-bottom: 130px;
+            font-size: 35px;
+        }
+
+        .main__pic {
+            position: absolute;
+            height: 727px;
+            right: 0px;
+            background-image: url(Images/pic.svg);
+            top: 0px;
+            width: 780px;
+        }
+
+        .menu__list {
+            margin-left: 126px;
+            padding: 0;
+        }
+
+        .menu__item {
+            display: inline-block;
+            color: #5222D0;
+            font-size: 20px;
+            font-family: 'Roboto Slab', serif;
+            padding-right: 10px;
+        }
+
+        .menu__link {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header__logo"></div>
+            <button class="header__cart btn">КОРЗИНА
+                <img id="logo" src="Images/icon-cart.svg" alt="логотип"></button>
+            </button>
+        </header>
+        <main class="main">
+            <h1 class="main__title">
+                Виртуальная <br> реальность<br> без проводов
+            </h1>
+            <div class="main__text-container">
+                <p class="main__text">
+                    Лучшее, что случалось с виртуальным миром в реальности.
+                    Новый компактный шлем без проводов и дорогих комьютеров.
+                </p>
+            </div>
+            <button class="main__btn-primary btn">КУПИТЬ
+                <img id="logo" src="Images/icon-card.svg" alt="логотип"></button>
+            <div class="main__pic"></div>
+        </main>
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__item">
+                    <a class="menu__link" href="#">Boзможности</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#">Где купить</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#">Доставка</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#">Помощь</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</body>
+
+</html>
