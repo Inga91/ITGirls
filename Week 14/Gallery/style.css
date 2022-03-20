@@ -1,0 +1,44 @@
+.name {
+    text-align: center;
+}
+
+.blocks {
+    display: flex;
+    gap: 10px;
+}
+
+.block {
+    height: 70vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.pic1 {
+    background-image: url(/assets/rio1.jpeg);
+}
+
+.pic2 {
+    background-image: url(/assets/rio2.jpeg);
+
+}
+
+.pic3 {
+    background-image: url(/assets/rio3.jpeg);
+
+}
+
+.pic4 {
+    background-image: url(/assets/rio4.jpeg);
+
+}
+
+.btns {
+    margin: 20px auto;
+    text-align: center;
+}
