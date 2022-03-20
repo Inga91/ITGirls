@@ -1,0 +1,12 @@
+.blocks {
+    display: flex;
+    gap: 10px;
+}
+
+.block {
+    border: solid;
+}
+
+.selected {
+    background-color: aquamarine;
+}
