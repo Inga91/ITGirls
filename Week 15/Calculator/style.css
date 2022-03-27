@@ -1,0 +1,49 @@
+.area {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.list-button {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.num {
+    width: 150px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    font-size: 22px;
+    text-align: center;
+}
+
+.answer {
+    width: 240px;
+
+}
+
+.operand {
+    width: 50px;
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.result {
+    margin: 30px auto;
+}
+
+#add,
+#sub,
+#mul,
+#div {
+    width: 50px;
+    height: 50px;
+}
