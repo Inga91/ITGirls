@@ -1,4 +1,4 @@
-/*let arr = ['js', 'css', 'html'];
+let arr = ['js', 'css', 'html'];
 console.log(arr[1]);
 
 let numbers = [0, 1, false, 2, undefined, '', 3, null];
@@ -9,7 +9,7 @@ let result = numbers.filter(function(elem) {
 		return false;
 	}
 });
-console.log(result);*/
+console.log(result);
 
 const arr2 = [[1,2], [1,2,3], [1,2,3,4]];
 let index;

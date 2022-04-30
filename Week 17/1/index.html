@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/styles/normalize.css">
+    <link rel="stylesheet" href="/assets/styles/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form class="container">
+        <div class="container__info">
+            <label for="data">
+                <p>Введите ФИО</p>
+            </label>
+            <input type="text" placeholder="ФИО" name="data" required class="data" id="data">
+            <button type="button" onclick="save()" class="btn">Сохранить</button>
+            <div>
+                <div class="data-output">
+                    <p>Фамилия - </p>
+                    <p id="lastname">kjd</p>
+                </div>
+                <div class="data-output">
+                    <p>Имя - </p>
+                    <p id="name">dkljkl</p>
+                </div>
+                <div class="data-output">
+                    <p>Отчество - </p>
+                    <p id="patronymic">skdjls</p>
+                </div>
+            </div>
+        </div>
+
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>

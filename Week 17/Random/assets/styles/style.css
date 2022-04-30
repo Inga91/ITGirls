@@ -1,0 +1,13 @@
+.container {
+    width: 90%;
+    font-size: 20px;
+    margin: 0 auto;
+
+}
+
+
+.button {
+    position: absolute;
+    right: 50%;
+    top: 50%;
+}
