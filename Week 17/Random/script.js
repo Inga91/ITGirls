@@ -12,20 +12,17 @@ function random() {
         arr[i] = Math.round((Math.random()*20 - 10));       
         sum += arr[i];
         mul *= arr[i];
-       // console.log(`${arr[i]}; sum = ${sum}; mul = ${mul} `);
+
     }
     avg = sum / arr.length;
-  //  console.log (`avg = ${avg}`);
+
     let max = arr[0];
     let min = arr[0];
-    for (var i = 1; i < arr.length; i++) {
+    for (let i = 1; i < arr.length; i++) {
         max =  Math.max(max, arr[i]);
         min =  Math.min(min, arr[i]);
 }
-  //  console.log(max);
-  //  console.log(min);
-  //  console.log(arr);
-
+ 
  alert (`*Сгенерировали: ${arr}*
 
     *Минимальное: ${min}*

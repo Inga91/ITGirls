@@ -26,3 +26,24 @@ function checkSpam (k) {
     let updateMessage = k.replace(/xxx|viagra/gi, "***");
     return updateMessage;
 }
+/*function ValidateNum() {
+    let num = /^\d{1,}$/;
+    let comment = document.getElementById("num").value;
+    console.log (comment);
+    if (comment.match(mailFormat)) {
+        return true;
+    }
+    else {
+        alert("Это не число");
+        return false;
+    }
+}*/
+
+function editEvent(event){
+    let dataValue = event.target.value;
+    let re = /[^\d]/gi;
+    event.target.value = dataValue.replace(re, "");
+}
+document.getElementById("idField").addEventListener("input", function (event) {
+    editEvent(event);
+});

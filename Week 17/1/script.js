@@ -19,4 +19,5 @@ function save() {
     document.getElementById("lastname").innerText = lastName;
     document.getElementById("name").innerText = name;
     document.getElementById("patronymic").innerText = patr;
+    document.getElementById("data").value = "";
 }
