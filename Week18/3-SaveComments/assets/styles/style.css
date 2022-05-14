@@ -1,0 +1,25 @@
+.container {
+    width: 90%;
+    font-size: 20px;
+    margin: 0 auto;
+
+}
+
+.data-output {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.container__info {
+    margin: 10px 20px;
+}
+
+#comment {
+    width: 100%;
+}
+
+.wrapper {
+    display: grid;
+}

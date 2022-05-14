@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Котики</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/29/29662.png" type="image/svg">
+</head>
+
+<body>
+    <h1>Информация о вашем питомце</h1>
+    <form action="">
+        <div>
+            <label for="nickname">Кличка питомца</label>
+            <input type="text" id="nickname" required>
+        </div>
+        <br>
+        <div>
+            <label for="name">Имя владельца</label>
+            <input type="text" id="name" required>
+        </div>
+        <br>
+        <div>
+            <label for="tel">Телефон</label>
+            <input type="tel" id="tel" pattern="^\+?(\d{1,3})?[- .]?\(?(?:\d{2,3})\)?[- .]?\d\d\d[- .]?\d\d\d\d$"
+                minlength="10" maxlength="20" placeholder="+1 123-456-7890" required>
+        </div>
+        <br>
+        <div>
+            <label for="name">Порода питомца</label>
+            <select required>
+                <option disabled>Выберите породу</option>
+                <option value="Ориентал" selected>Ориентал</option>
+                <option value="Шотландская вислоухая" selected>Шотландская вислоухая</option>
+                <option value="Сфинкс">Сфинкс</option>
+                <option value="Мейн-кун">Мейн-кун</option>
+                <option value="Манчкин">Манчкин</option>
+                <option value="Регдолл">Регдолл</option>
+                <option value="Другая">Другая порода</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <div>Чем питается:</div>
+            <input type="checkbox" id="check1"><label for="check1">Сухой корм</label>
+            <input type="checkbox" id="check2"><label for="check1">Влажный корм</label>
+            <input type="checkbox" id="check3"><label for="check1">Натуральный корм</label>
+        </div>
+        <br>
+        <div>
+
+            <input name="sex" type="radio" id="man" checked>
+            <label for="man">Самец</label>
+
+            <input name="sex" type="radio" id="woman">
+            <label for="woman">Самка</label>
+        </div>
+        <br>
+        <div>
+            <label for="text">Добавьте комментарий:</label>
+            <br>
+            <textarea id="text" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="foto">Приложить фото питомца:</label>
+            <br>
+            <input type="file" id="foto">
+        </div>
+        <br>
+        <div>
+            <button type="submit">Сохранить</button>
+        </div>
+    </form>
+    &copy;
+</body>
+
+</html>
