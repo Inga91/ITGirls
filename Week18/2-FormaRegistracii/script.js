@@ -83,7 +83,7 @@ function checkAll() {
 }
 
 function ValidateEmail(emailField) {
-    var mailFormat = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    let mailFormat = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     if (emailField.value.match(mailFormat)) {
         return true;
     }
@@ -92,7 +92,7 @@ function ValidateEmail(emailField) {
     }
 }
 function ValidateName(nameField) {
-    var nameFormat = /^[A-Za-z]+$/;
+    let nameFormat = /^[A-Za-z]+$/;
     if (nameField.value.match(nameFormat)) {
         return true;
     }
