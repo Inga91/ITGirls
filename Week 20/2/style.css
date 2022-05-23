@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Comic;
+    /* Имя шрифта */
+    src: url(comic.ttf);
+    /* Путь к файлу со шрифтом */
+}
+
+html {
+    background-image: url(https://st2.depositphotos.com/1611230/6568/i/600/depositphotos_65681759-stock-photo-statue-of-victory-with-a.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    font-family: Comic;
+    line-height: 30px;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.wather-in-city {
+    position: absolute;
+    left: 35%;
+    top: 40%;
+}
+
+.city {
+    font-size: 40px;
+}

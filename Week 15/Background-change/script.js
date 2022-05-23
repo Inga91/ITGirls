@@ -5,3 +5,5 @@ switch (document.getElementById("bg").value){
     case "bg-blue": document.body.style.backgroundColor = "#000096"; break;
 }
 }
+
+if 
