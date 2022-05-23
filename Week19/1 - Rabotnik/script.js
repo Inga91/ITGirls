@@ -6,7 +6,9 @@ class Worker {
         this.days = days;
     }
     getSalary() {
+        
         console.log(`${this.rate*this.days}!`);
+        return this.rate*this.days
     }
 }
 

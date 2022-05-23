@@ -1,5 +1,5 @@
 class Cat {
-    constructor(nickname, name = "", tel = "", specie = "", food = "", sex = '') {
+    constructor(nickname, name = "", tel = "", specie = "", food = "", sex) {
         this.nickname = nickname; 
         this.name = name; 
         this.tel = tel; 
@@ -38,9 +38,9 @@ function save() {
     let specie = document.getElementById("specie").value;
     
     let food = food1();
-    let sex = sex1();
+   let sex = sex1();
 
-    let cat = new Cat(nickname, name, tel, specie, food, sex);
+    let cat = new Cat(nickname, name, tel, specie, food);
     console.log (cat);
     /*console.log (cat.nickname);
     console.log (cat.name);
