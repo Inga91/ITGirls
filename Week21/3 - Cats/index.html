@@ -11,26 +11,26 @@
 
 <body>
     <h1>Информация о вашем питомце</h1>
-    <form action="">
+    <form action="/post" id="form">
         <div>
             <label for="nickname">Кличка питомца</label>
-            <input type="text" id="nickname" required>
+            <input type="text" id="nickname" required name="nickname">
         </div>
         <br>
         <div>
             <label for="name">Имя владельца</label>
-            <input type="text" id="name" required>
+            <input type="text" id="name" required name="name">
         </div>
         <br>
         <div>
             <label for="tel">Телефон</label>
             <input type="tel" id="tel" pattern="^\+?(\d{1,3})?[- .]?\(?(?:\d{2,3})\)?[- .]?\d\d\d[- .]?\d\d\d\d$"
-                minlength="10" maxlength="20" placeholder="+1 123-456-7890" required>
+                minlength="10" maxlength="20" placeholder="+1 123-456-7890" required name="tel">
         </div>
         <br>
         <div>
-            <label for="name">Порода питомца</label>
-            <select required>
+            <label>Порода питомца</label>
+            <select name="specie" required>
                 <option disabled>Выберите породу</option>
                 <option value="Ориентал" selected>Ориентал</option>
                 <option value="Шотландская вислоухая" selected>Шотландская вислоухая</option>
@@ -44,37 +44,40 @@
         <br>
         <div>
             <div>Чем питается:</div>
-            <input type="checkbox" id="check1"><label for="check1">Сухой корм</label>
-            <input type="checkbox" id="check2"><label for="check1">Влажный корм</label>
-            <input type="checkbox" id="check3"><label for="check1">Натуральный корм</label>
+            <input type="checkbox" id="check1" name="food[]" value="Сухой корм"><label for="check1">Сухой корм</label>
+            <input type="checkbox" id="check2" name="food[]" value="Влажный корм"><label for="check2">Влажный
+                корм</label>
+            <input type="checkbox" id="check3" name="food[]" value="Натуральный корм"><label for="check3">Натуральный
+                корм</label>
         </div>
         <br>
         <div>
-
-            <input name="sex" type="radio" id="man" checked>
+            <input name="sex" type="radio" id="man" value="man" checked>
             <label for="man">Самец</label>
 
-            <input name="sex" type="radio" id="woman">
+            <input name="sex" type="radio" id="woman" value="woman">
             <label for="woman">Самка</label>
         </div>
         <br>
         <div>
             <label for="text">Добавьте комментарий:</label>
             <br>
-            <textarea id="text" cols="30" rows="10"></textarea>
+            <textarea id="text" cols="30" rows="10" name="comment"></textarea>
         </div>
         <br>
         <div>
-            <label for="foto">Приложить фото питомца:</label>
+            <label for="photo">Приложить фото питомца:</label>
             <br>
-            <input type="file" id="foto">
+            <input type="file" id="photo" name="photo">
         </div>
         <br>
         <div>
-            <button type="submit">Сохранить</button>
+            <button type="submit" id="postButton">Сохранить</button>
         </div>
     </form>
     &copy;
+
+    <script src="script.js"></script>
 </body>
 
 </html>
