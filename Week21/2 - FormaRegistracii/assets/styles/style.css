@@ -1,0 +1,107 @@
+.container1 {
+    margin: 0 auto;
+    width: 500px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img {
+    width: 50px;
+    display: inline;
+}
+
+.title {
+    text-align: center;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 5px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+.name {
+    margin-bottom: 0;
+}
+
+.day {
+    width: 100px;
+}
+
+.year {
+    width: 150px;
+}
+
+.year,
+.day,
+#month {
+
+    padding: 15px;
+    margin: 0 0 5px 0;
+    display: block;
+    border: none;
+    background: #f1f1f1;
+}
+
+#month {
+    width: 100%;
+}
+
+.date {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+    gap: 20px;
+}
+
+.button {
+    border: none;
+    background-color: rgb(30, 215, 96);
+    color: rgb(0, 0, 0);
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 500px;
+}
+
+
+
+.center {
+    text-align: center;
+}
+
+.btn-google {
+    background-color: rgb(255, 255, 255);
+    border: rgb(83, 83, 83) solid 2px;
+    color: rgb(83, 83, 83);
+}
+
+.btn-fb {
+    background-color: rgb(64, 90, 147);
+    color: rgb(255, 255, 255);
+}
+
+#errorMessageEmail,
+#errorMessageEmail2,
+#errorMessagePassword,
+#errorMessageName,
+#errorMessageDate,
+#errorMessageSex {
+    color: red;
+}
+
+p {
+    margin-bottom: 0;
+}

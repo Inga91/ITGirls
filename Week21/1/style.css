@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Comic;
+    /* Имя шрифта */
+    src: url(comic.ttf);
+    /* Путь к файлу со шрифтом */
+}
+
+
+body {
+
+    text-align: center;
+
+}
+
+.all_gifs {
+    margin: 20px;
+}
