@@ -158,7 +158,7 @@ function changeInfo(e, i) {
     <div style="background-image: url(clip.png)" class="btn btn_return" onclick="print(this, ${i})"></div>
         <div>${heroes[i].info}</div>
         </div>`;
-        console.log(this);
+        
     document.getElementById(`superhero_${i}`).innerHTML = heroContent;
    
 }
