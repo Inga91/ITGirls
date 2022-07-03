@@ -1,0 +1,41 @@
+body {
+    font-family: Comic;
+    line-height: 30px;
+}
+
+h2 {
+    font-size: 30px;
+
+}
+
+.q_title {
+    font-size: 18px;
+}
+
+.font {
+    font-family: ComicShadow;
+    font-size: 25px;
+
+}
+
+.superhero {
+
+    display: flex;
+    flex-direction: column;
+    border: 4px double black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+}
+
+.superhero__pic {
+    width: 400px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    margin: 10px auto;
+
+
+}
